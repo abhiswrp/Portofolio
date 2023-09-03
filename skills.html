@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Swaroop - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul
+        {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li
+        {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover
+        {
+            color: rgb(153, 153, 226);
+            font-size: 1.1rem;
+        }
+        .left
+        {
+            font-size: 1.5rem;
+        }
+        .firstsection
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstsection > div
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .leftSection
+        {
+            font-size: 3rem;
+            padding: 9.5%;
+            height: 10px;
+        }
+        .leftSection .buttons
+        {
+            padding: 50px 0;
+        }
+        .leftSection .btn
+        {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img
+        {
+            width: 20%;
+            margin: -116px 1075px;
+        }
+        .purple
+        {
+            color: rgb(170, 107, 228);
+        }
+        .text-gray
+        {
+            color:gray;
+        }
+        #element
+        {
+            color: rgb(170, 107, 228);
+        }
+        .secondSection
+        {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1
+        {
+            font-size: 1.9rem;
+        }
+        .secondSection .box
+        {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical
+        {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top
+        {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title
+        {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc
+        {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        main hr
+        {
+            border: 0;
+            background: #9c97f1;
+            height: 1.5px;
+            margin: 195px 84px;
+        }
+        .left
+        {
+            font-size: 1.5rem;
+        }
+        footer
+        {
+            background-color: #0e0e1a;
+        }
+        .footer
+        {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul
+        {
+            list-style: none;
+        }
+        .footer > div
+        {
+            width: 223px;
+        }
+        footer .footer-rights
+        {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhishek's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Abhishek Swaroop</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Resume</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Images png\Logo_Image.png" alt="png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Images png\Programming.png" alt="png">
+                    <div class="vertical-title">
+                        <h5>Programming Languages</h5>
+                    </div>
+                    <div class="vertical-desc">
+                        <h3>Java</h3>
+                        <h3>Python</h3>
+                        <h3>C</h3>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Images png\Technology.png" alt="png">
+                    <div class="vertical-title">
+                        <h5>Technologies</h5>
+                        <br>
+                    </div>
+                    <div class="vertical-desc">
+                        <h3>Arttificial Intelligence</h3>
+                        <h3>BlockChain</h3>
+                        <h3>Data Science</h3>
+                        <h3>Machine Learning</h3>
+                        <h3>Robotics</h3>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Images png\Web_Development.png" alt="png">
+                    <div class="vertical-title">
+                        <h5>Web Development</h5>
+                        <br>
+                    </div>
+                    <div class="vertical-desc">
+                        <h3>Hyper Text Markup Language</h3>
+                        <h3>Cascading Style Sheets</h3>
+                        <h3>JavaScript</h3>
+                        <h3>React.js</h3>
+                        <h3>Node.js</h3>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Images png\Soft_Skills.png" alt="png">
+                    <div class="vertical-title">
+                        <h5>Soft Skills</h5>
+                        <br>
+                    </div>
+                    <div class="vertical-desc">
+                        <h3>Master in Demand Professional Soft Skills</h3>
+                        <h3>Developing Your Emotional Intelligence</h3>
+                        <h3>Building Resilience</h3>
+                        <h3>Embracing Unexpected Change</h3>
+                        <h3>Critical Thinking for Better Jundgement and Decision Making</h3>
+                        <h3>Why Trust Matters</h3>
+                        <h3>Teamwork Foundations</h3>
+                        <h3>Communication Foundations</h3>
+                        <h3>Effective Listening</h3>
+                        <h3>Persuading Others</h3>
+                        <h3>Writing in Plain Language</h3>
+                        <h3>Banish Your Inner Critic to Unleash Creativity</h3>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Images png\Android_App_Developer_Intern.png" alt="png">
+                    <div class="vertical-title">
+                        <h5>Others</h5>
+                        <br>
+                    </div>
+                    <div class="vertical-desc">
+                        <h3>D.B.M.S.</h3>
+                        <h3>MySQL</h3>
+                        <h3>Git</h3>
+                        <h3>Android Studio</h3>
+                        <h3>Flutter</h3>
+                        <h3>UI/UX</h3>
+                        <h3>Solidity</h3>
+                        <h3>Data Structures and Algorithms</h3>
+                        <h3>Linux</h3>
+                        <h3>Android Application Development</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Abhishek's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <ul>
+            </ul>
+            <div class="footer-third"></div>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/abhishek-swaroop-40a7a2224">LinkedIn</a></li>
+                <li><a href="https://github.com/abhiswrp">GitHub</a></li>
+                <li><a href="https://telegram.me/abhishek_swaroop">Telegram</a></li>
+                <li><a href="https://unstop.com/u/abhishek_swaroop">UnStop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="footer-fourth"></div>
+            <ul>
+                <li><a href="https://leetcode.com/Abhishek_Swaroop/">LeetCode</a></li>
+                <li><a href="https://auth.geeksforgeeks.org/user/abhiswrovhz/">GeeksForGeeks</a></li>
+                <li><a href="https://www.hackerrank.com/641520004_csai?h_r=internal-search&hr_r=1">HackerRank</a></li>
+                <li><a href="https://www.codechef.com/users/abhi_swrp">CodeChef</a></li>
+                <li><a href="https://profile.codingninjas.com/cc816ea2-e873-4579-81f4-67e8da31346d">Coding Ninjas</a></li>
+            </ul>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; abhisheksportfolio.com | All rights reserved | Designed by Abhishek Swaroop
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer,', 'Android Developer,', '&amp; Machine Learning Enthusiast'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
